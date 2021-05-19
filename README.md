@@ -1,5 +1,6 @@
 # Object Detection "Contour Approximation"
 
+![image](./redhat-shape-detection.png)
 - Contour-based processing
 - Think of manufacturing or top-down imagery to detect objects and label
 - Leverage basic CV techniques to minimize complexity in ML and offload model
@@ -20,10 +21,10 @@ A contour consists of a list of verticies (ex. contour = 3 verticies = triangle)
 ├── detect_shapes.py        # driver script loads image, analyze, performs detector
 ├── redhat-shapes.png
 ├── requirements.txt
-├── shape_detection.ipynb
+├── shape_detection.ipynb   # interactive notebook performing same tasks as raw python
 ├── shapes_and_colors.png
 └── submodules
     ├── __init__.py
-    └── shapedetector.py  # takes contour, using contour approx., id shape
+    └── shapedetector.py    # takes contour, using contour approx., id shape
 
 ```
